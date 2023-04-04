@@ -28,7 +28,7 @@ export default function Technologies() {
                             understands it and pay great heed to the clients staffing needs.
                             Our team works <span>efficiently</span> in providing talented and qualified workforce
                             for our clients, which fully meets the staffing criteria. We have created
-                            a comprehensive platform to meet the varied project and client's needs.
+                            a comprehensive platform to meet the varied project and client&apos;s needs.
                             Our dedicated staffing platform enable our clients to choose from a
                             various range of staffing options i.e. contract to hire to permanent
                             staffing; this helps in choosing the best for both short term and long

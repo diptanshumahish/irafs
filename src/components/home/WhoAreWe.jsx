@@ -24,7 +24,7 @@ export default function WhoAreWe() {
                         Information Technology talents need to perform under consistent
                         stress with <span>strict delivery timelines</span>. We play a vital role to evaluate
                         <span> best fit</span> talent for our valued customers. We also strive for consistent performance,
-                        hinging on evaluation of customer's strategic plan and has the experience to carry it out.
+                        hinging on evaluation of customer&apos;s strategic plan and has the experience to carry it out.
                         <br />
                         <br />
                         <span>Below are some clients we have worked with ✨</span>
