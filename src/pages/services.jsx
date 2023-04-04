@@ -10,7 +10,7 @@ export default function Services() {
             <Head>
                 <title>Srvices @IRA</title>
             </Head>
-
+            <Navbar />
             <main id={s.services}>
                 <div id={s.servicesHead} data-aos="fade-up">
                     <div id={s.topHead}> OUR SERVICES</div>
@@ -85,7 +85,7 @@ export default function Services() {
 
                 </div>
             </main>
-            <Navbar />
+
 
             <Footer />
 

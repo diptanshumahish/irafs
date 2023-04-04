@@ -59,7 +59,7 @@ export default function Navbar() {
                             <Link href='/aboutus' >
                                 <li>About Us</li>
                             </Link>
-                            <Link href='/aboutus' id="ctb" >
+                            <Link href='/contactus' id="ctb" >
                                 <li>Contact Us</li>
                             </Link>
 
