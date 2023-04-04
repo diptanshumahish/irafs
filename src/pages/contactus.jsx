@@ -51,7 +51,7 @@ export default function ContactUs() {
                             </form>
                         </div>
                         <div id={c.formRight} data-aos="fade-up" data-aos-delay="100">
-                            <Image src='/assets/images/form.svg' height={500} width={500} alt="random" />
+                            <Image src='/assets/images/form.svg' height={500} width={500} alt="random" id={c.img} />
                         </div>
                     </div>
 

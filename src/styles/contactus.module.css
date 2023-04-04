@@ -47,3 +47,27 @@
     font-family: 'bold';
     cursor: pointer;
 }
+
+@media screen and (max-width:768px) {
+    #headMain {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    #sub {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    #form {
+        flex-direction: column;
+    }
+
+    #contactForm {
+        min-width: 90vw;
+    }
+
+    #img {
+        width: 90vw;
+    }
+}
