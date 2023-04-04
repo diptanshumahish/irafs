@@ -1,0 +1,134 @@
+#tech {
+    min-height: 100vh;
+    background-color: var(--themeGreen);
+}
+
+#section1 {
+    padding: 2rem;
+    padding-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#techHead {
+    line-height: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#tophead {
+    font-size: 8rem;
+    font-family: 'black', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#cta {
+    margin-top: 2rem;
+    line-height: 3rem;
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    background-color: black;
+    color: var(--themeGreen);
+}
+
+#cont {
+    max-width: 40vw;
+    text-align: right;
+    font-size: 1.2rem;
+
+}
+
+#cont span {
+    font-family: 'bold';
+    color: white;
+}
+
+#offer {
+    padding: 5rem 2rem;
+}
+
+#offerHead {
+    font-size: 5rem;
+    font-family: 'bold', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#techCards {
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.techCard {
+    background-color: black;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    align-items: center;
+}
+
+.techCardHead {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'bold';
+}
+
+#manymore {
+    font-size: 1.5rem;
+}
+
+#manymore a span {
+    text-decoration: underline;
+    font-family: 'bold';
+}
+
+@media screen and (max-width:768px) {
+    #section1 {
+        flex-direction: column;
+    }
+
+    #tophead {
+        font-size: 4rem;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    #cta {
+        width: 100%;
+        text-align: center;
+    }
+
+    #cont {
+        max-width: unset;
+        text-align: center;
+        padding: 3rem 0;
+    }
+
+    #offerHead {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    #techCards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .techCard {
+        padding: 0.5rem 1rem;
+    }
+
+    .techCard:nth-child(9) {
+        grid-column: span 2;
+    }
+
+    .techCardHead {
+        font-size: 1rem;
+    }
+}

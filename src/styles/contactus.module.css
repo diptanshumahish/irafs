@@ -1,0 +1,49 @@
+#ctu {
+    min-height: 100vh;
+    padding: 2rem;
+    padding-top: 18vh;
+    background-color: var(--themeGreen);
+}
+
+#headMain {
+    font-size: 8rem;
+    font-family: 'black';
+}
+
+#head {
+    line-height: 5rem;
+}
+
+#sub {
+    font-size: 1.5rem;
+}
+
+#form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contactForm {
+    min-width: 50vw;
+
+}
+
+.forEle {
+    font-size: 2rem;
+    padding-top: 1rem;
+    font-family: 'bold';
+}
+
+#submit {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    border: none;
+    color: var(--themeGreen);
+    font-size: 2rem;
+    font-family: 'bold';
+    cursor: pointer;
+}
