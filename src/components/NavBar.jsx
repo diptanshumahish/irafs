@@ -16,9 +16,7 @@ export default function Navbar() {
                     <Link href='/'>
                         Home
                     </Link>
-                    <Link href='/services'>
-                        Services
-                    </Link>
+
                     <Link href='/technologies'>
                         Technologies
                     </Link>
@@ -31,7 +29,7 @@ export default function Navbar() {
                 </div>
                 <div id="mob" onClick={() => {
                     setOpenNav(true);
-                    console.log("j");
+
 
                 }}>
                     <img src="/assets/images/menu.svg" alt="menu icon" height={30} width={30} />
@@ -43,15 +41,12 @@ export default function Navbar() {
                     <div id="mobileNav">
                         <div id="close" onClick={() => {
                             setOpenNav(false);
-                        }}>X</div>
+                        }}>CLOSE</div>
                         <ul id="menuItems" onClick={() => {
                             setOpenNav(false);
                         }}>
                             <Link href='/' >
                                 <li>Home</li>
-                            </Link>
-                            <Link href='/services'  >
-                                <li>Services</li>
                             </Link>
                             <Link href='/technologies' >
                                 <li>Technologies</li>

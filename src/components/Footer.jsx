@@ -23,7 +23,7 @@ export default function Footer() {
                     <div id={s.bottom}>
                         <div className={s.footLink}>
                             <Link href='tel:+91 73861 49433'>
-                                +91 73861 49433
+                                Call Us.
                             </Link>
                         </div>
                         <div className={s.footLink}>

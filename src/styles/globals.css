@@ -136,6 +136,9 @@ textarea {
     top: 0;
     right: 0;
     padding: 2rem;
+    color: white;
+    font-size: 2rem;
+    font-family: 'bold';
   }
 
   #menuItems {
@@ -163,7 +166,7 @@ textarea {
     flex-direction: column;
     padding: 2rem;
     gap: 1rem;
-    
+
 
   }
 }

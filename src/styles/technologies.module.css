@@ -32,6 +32,7 @@
     border-radius: 2rem;
     background-color: black;
     color: var(--themeGreen);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 #cont {
@@ -97,17 +98,18 @@
     #tophead {
         font-size: 3rem;
         line-height: 4rem;
-        text-align: center;
+        text-align: left;
     }
 
     #cta {
+        border-radius: 0.4rem;
         width: 100%;
         text-align: center;
     }
 
     #cont {
         max-width: unset;
-        text-align: center;
+        text-align: left;
         padding: 3rem 0;
     }
 

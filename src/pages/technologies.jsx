@@ -38,7 +38,7 @@ export default function Technologies() {
 
                     <div id={t.offer}>
                         <div id={t.offerHead}>
-                            Explore what we offer :
+                            WE OFFER THE FOLLOWING TECH STACKS:
                         </div>
                         <div id={t.techCards} data-aos="fade-right" >
                             {/* 1 */}
@@ -134,7 +134,7 @@ export default function Technologies() {
                             </Link>
                         </div>
                         <div id={t.manymore}>
-                            & many more, <Link href=''>
+                            & many more, <Link href='/contactus'>
                                 <span>Let&apos;s Talk</span></Link>
                         </div>
                     </div>
