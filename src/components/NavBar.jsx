@@ -34,7 +34,7 @@ export default function Navbar() {
                     console.log("j");
 
                 }}>
-                    <img src="/assets/images/menu.png" alt="menu icon" height={40} width={40} />
+                    <img src="/assets/images/menu.svg" alt="menu icon" height={30} width={30} />
                 </div>
 
             </nav>

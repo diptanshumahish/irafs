@@ -87,11 +87,12 @@
 
 @media screen and (max-width:768px) {
     #abtUs {
+        padding: 1rem;
         padding-top: 15vh;
     }
 
     #head {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     #top {
@@ -104,10 +105,20 @@
 
     .cardleft {
         max-width: unset;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
     }
 
     .cardHead {
         font-size: 3rem;
+    }
+
+    .card {
+        background-color: white;
+        padding: 2rem 1rem;
+        border-radius: 0.5rem;
     }
 
     #key {

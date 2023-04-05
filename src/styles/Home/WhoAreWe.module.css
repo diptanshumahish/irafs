@@ -115,6 +115,7 @@
 
     #top {
         flex-direction: column;
+
     }
 
     #WhoLeft {
@@ -156,6 +157,7 @@
     #what {
         flex-direction: column;
         padding: 4rem 2rem;
+        gap: 2rem;
     }
 
     .whatCard {

@@ -73,7 +73,7 @@
 
 @media screen and (max-width:768px) {
     #services {
-        padding: 4rem 2rem;
+        padding: 4rem 1.5rem;
         padding-top: 15vh;
     }
 
@@ -93,12 +93,13 @@
     #serviceCards {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 2rem
+        gap: 2rem;
+        width: 90vw;
     }
 
     .serviceCard {
         width: fit-content;
-        max-height: unset;
+        min-height: 225px;
 
     }
 

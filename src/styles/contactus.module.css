@@ -49,6 +49,11 @@
 }
 
 @media screen and (max-width:768px) {
+    #ctu {
+        padding: 1rem;
+        padding-top: 18vh;
+    }
+
     #headMain {
         font-size: 4rem;
         line-height: 4rem;
@@ -68,6 +73,6 @@
     }
 
     #img {
-        width: 90vw;
+        width: 80vw;
     }
 }

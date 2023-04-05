@@ -64,6 +64,7 @@
     #recruitProcess {
         padding: 5rem 1rem;
         flex-direction: column;
+        gap: 2rem;
     }
 
     #recruitHead {
@@ -73,6 +74,10 @@
 
     #recruitHead span {
         font-size: 1.2rem;
+    }
+
+    #recruitCards {
+        gap: 1.5rem;
     }
 
     .recruitCard {

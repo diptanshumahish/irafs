@@ -27,17 +27,9 @@ export default function Technologies() {
                             The workforce is an asset for every organization. <span>IRA Future Solutions </span>
                             understands it and pay great heed to the clients staffing needs.
                             Our team works <span>efficiently</span> in providing talented and qualified workforce
-                            for our clients, which fully meets the staffing criteria. We have created
-                            a comprehensive platform to meet the varied project and client&apos;s needs.
-                            Our dedicated staffing platform enable our clients to choose from a
-                            various range of staffing options i.e. contract to hire to permanent
-                            staffing; this helps in choosing the best for both short term and long
-                            term projects. This also empowers to choose a <span>reliable work force</span> within
-                            a budget. We strive to provide workforce to our clients in all fields.
-                            We work all times to employ the qualified individuals who match your
-                            corporate culture and also ensure that it is not just hiring but
-                            about providing a skilled individual, who in turn develops a
-                            mutual relationship with the organization. At <span>IRA Future Solutions </span>
+                            for our clients, which fully meets the staffing criteria.
+                            This also empowers to choose a <span>reliable work force</span> within
+                            a budget. At <span>IRA Future Solutions </span>
                             every candidate is tested on his abilities, strength, and weakness,
                             retaining and referring the best aspirant for the job, thus ensure
                             an optimistic and successful future for both the client and the candidate.

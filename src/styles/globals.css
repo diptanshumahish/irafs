@@ -163,8 +163,7 @@ textarea {
     flex-direction: column;
     padding: 2rem;
     gap: 1rem;
-    align-items: left;
-    justify-content: left;
+    
 
   }
 }
