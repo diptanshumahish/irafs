@@ -19,7 +19,7 @@ export default function ContactUs() {
                     <div id={c.form} >
                         <div id={c.formLeft} data-aos="fade-up">
 
-                            <form action="https://formsubmit.co/contact@warriorsgrp.com" id={c.contactForm} method="POST">
+                            <form action="https://formsubmit.co/contact@irafs.com" id={c.contactForm} method="POST">
                                 <label htmlFor="Name" >
                                     <div className={c.forEle} >
                                         Name

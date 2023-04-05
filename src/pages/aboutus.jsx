@@ -55,16 +55,16 @@ export default function AboutUs() {
                     </div>
                     <div id={a.keyCards}>
                         <ul>
-                            <li>Hassle-free business solutions that you can rely on.</li>
-                            <li> We believe in “Clients success is our success”.</li>
-                            <li> At IRA fs talent meets appreciation and wonders occur</li>
-                            <li> Our promises are not vague ones, we actually fulfil them</li>
+                            <li> 🎈Hassle-free business solutions that you can rely on.</li>
+                            <li>🎈 We believe in “Clients success is our success”.</li>
+                            <li> 🎈At IRA fs talent meets appreciation and wonders occur</li>
+                            <li> 🎈Our promises are not vague ones, we actually fulfil them</li>
                         </ul>
                     </div>
                 </div>
                 <div id={a.talk}>
                     <div id={a.tk}>Feeling inspired?</div>
-                    <Link href='/contact'>
+                    <Link href='/contactus'>
                         <div id={a.cta}>Let&apos;s Talk</div></Link>
                 </div>
             </main>
