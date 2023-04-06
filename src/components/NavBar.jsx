@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image";
 import { useState } from "react"
 export default function Navbar() {
     const [openNav, setOpenNav] = useState(false);
@@ -6,7 +7,9 @@ export default function Navbar() {
         <>
             <nav>
                 <div id="navLogo" >
-                    <div></div>
+                    <div>
+                        <Image src='/irafs.svg' height={60} width={50} />
+                    </div>
                     <div id="navLogoText">
                         <div id="Logo1">IRA</div>
                         <div id="Logo2">Future Solutions.</div>

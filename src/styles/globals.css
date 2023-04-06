@@ -58,6 +58,12 @@ nav {
   display: none;
 }
 
+#navLogo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 #Logo1 {
   font-family: 'bold';
   font-size: 2rem;

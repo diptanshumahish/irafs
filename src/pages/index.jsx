@@ -18,7 +18,8 @@ export default function Home() {
     <>
       <Head>
         <title>IRA Future Solutions.</title>
-        <meta name="description" content="The official website for Ira Future Solutions" />
+        <meta name="description" content="IRA Future Solutions | The best staffing and hiring solutions for you at the cheapest prices! " />
+        <meta name="keywords" content="IRA Future Solutions, IRAfs, IRAFS, staffing and hiring, developers" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -29,8 +30,6 @@ export default function Home() {
         <WhoAreWe />
         <MajorTech />
         <Recruitment />
-
-
       </main>
       <Footer />
 

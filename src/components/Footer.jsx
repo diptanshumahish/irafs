@@ -1,11 +1,13 @@
 import s from '@/styles/Footer.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 export default function Footer() {
     return (
         <>
             <footer>
                 <div id={s.footerLeft}>
                     {/* logo here */}
+                    <Image src='/assets/logob.svg' height={80} width={60} />
                     <div id={s.head}>
                         IRA
                     </div>
