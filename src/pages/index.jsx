@@ -22,9 +22,13 @@ export default function Home() {
         <meta name="keywords" content="IRA Future Solutions, IRAfs, IRAFS, staffing and hiring, developers" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name='author' content='Diptanhu Mahish' />
+        <meta name="theme-color" content="#559a55" />
+        <meta
+          property="og:image"
+          content="https://irafs.vercel.app/assets/bannerblack.png" />
       </Head>
       <Navbar />
-
       <main>
         <Header />
         <WhoAreWe />
@@ -32,7 +36,6 @@ export default function Home() {
         <Recruitment />
       </main>
       <Footer />
-
     </>
   )
 }
