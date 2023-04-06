@@ -27,6 +27,22 @@ export default function Home() {
         <meta
           property="og:image"
           content="https://irafs.vercel.app/assets/bannerblack.png" />
+
+        {/* facebook */}
+        <meta property="og:url" content="https://irafs.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="IRA Future Solutions." />
+        <meta property="og:description" content="IRA Future Solutions | The best staffing and hiring solutions for you at the cheapest prices! " />
+        <meta property="og:image" content="https://irafs.vercel.app/assets/bannerblack.png" />
+
+        {/* twitter  */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="irafs.vercel.app" />
+        <meta property="twitter:url" content="https://irafs.vercel.app/" />
+        <meta name="twitter:title" content="IRA Future Solutions." />
+        <meta name="twitter:description" content="IRA Future Solutions | The best staffing and hiring solutions for you at the cheapest prices! " />
+        <meta name="twitter:image" content="https://irafs.vercel.app/assets/bannerblack.png" />
+
       </Head>
       <Navbar />
       <main>
