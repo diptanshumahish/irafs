@@ -40,11 +40,11 @@ export default function Technologies() {
                         <div id={t.offerHead}>
                             WE OFFER THE FOLLOWING TECH STACKS:
                         </div>
-                        <div id={t.techCards} data-aos="fade-right" >
+                        <div id={t.techCards}  >
                             {/* 1 */}
-                            <Link href='/contact'>
+                            <Link href='/contactus'>
 
-                                <div className={t.techCard}>
+                                <div className={t.techCard} data-aos="flip-right">
                                     <div className={t.techCardHead}>
                                         Java
                                     </div>
@@ -53,9 +53,9 @@ export default function Technologies() {
                                 </div>
                             </Link>
                             {/* 2 */}
-                            <Link href='/contact'>
+                            <Link href='/contactus'>
 
-                                <div className={t.techCard}>
+                                <div className={t.techCard} data-aos="flip-right">
                                     <div className={t.techCardHead}>
                                         Python
                                     </div>
@@ -63,9 +63,9 @@ export default function Technologies() {
                                 </div>
                             </Link>
                             {/* 3 */}
-                            <Link href='/contact'>
+                            <Link href='/contactus'>
 
-                                <div className={t.techCard}>
+                                <div className={t.techCard} data-aos="flip-right">
                                     <div className={t.techCardHead}>
                                         .NET Developer
                                     </div>
@@ -73,9 +73,9 @@ export default function Technologies() {
                                 </div>
                             </Link>
                             {/* 4 */}
-                            <Link href='/contact'>
+                            <Link href='/contactus'>
 
-                                <div className={t.techCard}>
+                                <div className={t.techCard} data-aos="flip-right">
                                     <div className={t.techCardHead}>
                                         iOS Developer
                                     </div>
@@ -83,9 +83,9 @@ export default function Technologies() {
                                 </div>
                             </Link>
                             {/* 5 */}
-                            <Link href='/contact'>
+                            <Link href='/contactus'>
 
-                                <div className={t.techCard}>
+                                <div className={t.techCard} data-aos="flip-right">
                                     <div className={t.techCardHead}>
                                         Azure
                                     </div>
@@ -93,9 +93,9 @@ export default function Technologies() {
                                 </div>
                             </Link>
                             {/* 6 */}
-                            <Link href='/contact'>
+                            <Link href='/contactus'>
 
-                                <div className={t.techCard}>
+                                <div className={t.techCard } data-aos="flip-right">
                                     <div className={t.techCardHead}>
                                         AWS
                                     </div>
@@ -103,9 +103,9 @@ export default function Technologies() {
                                 </div>
                             </Link>
                             {/* 7 */}
-                            <Link href='/contact'>
+                            <Link href='/contactus'>
 
-                                <div className={t.techCard}>
+                                <div className={t.techCard} data-aos="flip-right">
                                     <div className={t.techCardHead}>
                                         React JS
                                     </div>
@@ -113,9 +113,9 @@ export default function Technologies() {
                                 </div>
                             </Link>
                             {/* 8 */}
-                            <Link href='/contact'>
+                            <Link href='/contactus'>
 
-                                <div className={t.techCard}>
+                                <div className={t.techCard} data-aos="flip-right">
                                     <div className={t.techCardHead}>
                                         UI/UX
                                     </div>
@@ -123,9 +123,9 @@ export default function Technologies() {
                                 </div>
                             </Link>
                             {/* 9 */}
-                            <Link href='/contact'>
+                            <Link href='/contactus'>
 
-                                <div className={t.techCard}>
+                                <div className={t.techCard} data-aos="flip-right">
                                     <div className={t.techCardHead}>
                                         Cyber Security
                                     </div>

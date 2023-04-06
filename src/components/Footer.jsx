@@ -7,7 +7,7 @@ export default function Footer() {
             <footer>
                 <div id={s.footerLeft}>
                     {/* logo here */}
-                    <Image src='/assets/logob.svg' height={80} width={60} />
+                    <Image src='/assets/logob.svg' height={80} width={60}  alt="Ira Future solutions logo"/>
                     <div id={s.head}>
                         IRA
                     </div>
