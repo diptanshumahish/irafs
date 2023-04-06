@@ -38,7 +38,7 @@ export default function MajorTech() {
                                     </div></Link>
                             </div>
                             <div className={s.serviceCardRight}>
-                                <Image src="https://unsplash.com/photos/wzVQp_NRIHg/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MjR8fGNvbXB1dGVyfGVufDB8fHx8MTY2NjgyOTQ3Mw&force=true" alt="services" width="210" height="600" />
+                                <Image src="https://unsplash.com/photos/hhUx08PuYpc/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjgwNzU0MzYw&force=true&w=1920" alt="services" width="210" height="600" />
                             </div>
                         </div>
                         <div className={s.serviceCard} data-aos="fade-up" data-aos-delay="200">
@@ -70,7 +70,7 @@ export default function MajorTech() {
                                     </div></Link>
                             </div>
                             <div className={s.serviceCardRight}>
-                                <Image src="https://unsplash.com/photos/Y5bvRlcCx8k/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjY2ODQwMDk5&force=true" alt="services" width="210" height="300" />
+                                <Image src="https://unsplash.com/photos/Lks7vei-eAg/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTZ8fHN0YWZmfGVufDB8fHx8MTY4MDY5NTcyOQ&force=true&w=2400" alt="services" width="210" height="300" />
                             </div>
                         </div>
                         <div className={s.serviceCard} data-aos="fade-up" data-aos-delay="200">
