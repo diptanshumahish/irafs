@@ -3,7 +3,14 @@ import Navbar from "@/components/NavBar"
 import c from '@/styles/contactus.module.css'
 import Footer from "@/components/Footer"
 import Image from "next/image"
+import Aos from 'aos'
+import { useEffect } from 'react'
+import "aos/dist/aos.css";
 export default function ContactUs() {
+    useEffect(() => {
+        Aos.init();
+        Aos.refresh();
+    }, [])
     return (
         <>
             <Head>

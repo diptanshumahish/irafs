@@ -4,7 +4,14 @@ import Navbar from "@/components/NavBar"
 import Footer from "@/components/Footer"
 import Image from "next/image"
 import t from '@/styles/technologies.module.css'
+import Aos from 'aos'
+import { useEffect } from 'react'
+import "aos/dist/aos.css";
 export default function Technologies() {
+    useEffect(() => {
+        Aos.init();
+        Aos.refresh();
+    }, [])
     return (
         <>
             <Head>
@@ -95,7 +102,7 @@ export default function Technologies() {
                             {/* 6 */}
                             <Link href='/contactus'>
 
-                                <div className={t.techCard } data-aos="flip-right">
+                                <div className={t.techCard} data-aos="flip-right">
                                     <div className={t.techCardHead}>
                                         AWS
                                     </div>
