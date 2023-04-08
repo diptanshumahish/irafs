@@ -13,6 +13,21 @@
   src: url('/assets/fonts/black.ttf');
 }
 
+@font-face {
+  font-family: "lb";
+  src: url('/assets/fonts/logbold.otf');
+}
+
+@font-face {
+  font-family: "lr";
+  src: url('/assets/fonts/logreg.otf');
+}
+
+@font-face {
+  font-family: "lsb";
+  src: url('/assets/fonts/logsb.otf');
+}
+
 :root {
   --themeGreen: #559a55;
 }
@@ -21,7 +36,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'satoshi',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'satoshi', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html,
@@ -58,6 +73,13 @@ nav {
   display: none;
 }
 
+#navLogoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 #navLogo {
   display: flex;
   align-items: center;
@@ -65,12 +87,13 @@ nav {
 }
 
 #Logo1 {
-  font-family: 'bold',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'lb', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 2rem;
   color: white;
 }
 
 #Logo2 {
+  font-family: 'lsb';
   color: white;
 }
 
@@ -117,6 +140,30 @@ textarea {
   border-radius: 0.5rem;
 }
 
+
+/* thank YOu page  */
+#thankYou {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  flex-direction: column;
+}
+
+#thanksText {
+  font-size: 2rem;
+}
+
+#thanksButton {
+  background-color: var(--themeGreen);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1rem;
+}
+
 @media screen and (max-width:768px) {
   #navLinks {
     display: none;
@@ -144,7 +191,7 @@ textarea {
     padding: 2rem;
     color: white;
     font-size: 2rem;
-    font-family: 'bold',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'bold', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   #menuItems {
@@ -174,5 +221,10 @@ textarea {
     gap: 1rem;
 
 
+  }
+
+  #thanksText {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 }

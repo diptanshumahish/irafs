@@ -35,6 +35,7 @@ export default function WhoAreWe() {
                         <Image src='/assets/company/tcs.png' height={100} width={400} className={s.clientLogo} alt='tcs' />&nbsp;
                         <Image src='/assets/company/per.png' height={100} width={400} className={s.clientLogo} alt='persistence' /> &nbsp; &nbsp;
                         <Image src='/assets/company/hcl.png' height={100} width={400} className={s.clientLogo} alt='hcl' />&nbsp; &nbsp;
+                        <Image src='/assets/company/randstad.jpg' height={100} width={400} className={s.clientLogo} alt='randstand' />  &nbsp;&nbsp;
                         <Image src='/assets/company/gen.png' height={100} width={400} className={s.clientLogo} alt='genimpact' />&nbsp; &nbsp; &nbsp;
                         <Image src='/assets/company/cap.webp' height={100} width={400} className={s.clientLogo} alt='capegmini' />&nbsp; &nbsp;
                         <Image src='/assets/company/info.png' height={100} width={400} className={s.clientLogo} alt='infosys' />&nbsp; &nbsp;
@@ -46,6 +47,8 @@ export default function WhoAreWe() {
                         <Image src='/assets/company/quad.png' height={100} width={400} className={s.clientLogo} alt='quad' />  &nbsp;&nbsp;
                         <Image src='/assets/company/hun.png' height={100} width={400} className={s.clientLogo} alt='hunter' />  &nbsp;&nbsp;
                         <Image src='/assets/company/cof.png' height={100} width={400} className={s.clientLogo} alt='cof' />  &nbsp;&nbsp;
+
+
                     </Marquee>
 
                 </div>

@@ -44,9 +44,10 @@ export default function ContactUs() {
                                     </div>
                                     <textarea name="message" id="" cols="20" rows="10" placeholder="Enter your Message here" ></textarea>
                                 </label>
-                                <input type="hidden" name="_next" value="https://warriorsgrp.com/thankyou"></input>
+                                <input type="hidden" name="_next" value="https://irafs.com/thankYou"></input>
                                 <input type="hidden" name="_template" value="box"></input>
                                 <input type="hidden" name="_captcha" value="false"></input>
+                                <input type="hidden" name="_subject" value="New submission!"></input>
                                 <button type="submit" id={c.submit}>Submit</button>
                             </form>
                         </div>
