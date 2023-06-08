@@ -12,7 +12,7 @@ export default function Footer() {
                         IRA FS
                     </div>
                     <div id={s.country}>
-                        India
+                        USA & India
                     </div>
                 </div>
                 <div id={s.footerRight}>
