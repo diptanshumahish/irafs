@@ -22,13 +22,13 @@ export default function Robotics() {
             the times.
           </span>
           <ul id={r.u}>
-            <li className="l">Our RPA team is the centre of excellence</li>
-            <li className="l">All our consultants are RPA Certified</li>
-            <li className="l">Exposure and knowledge in more than one tool</li>
+            <li className="l">Our RPA team is the centre of excellence.</li>
+            <li className="l">All our consultants are RPA Certified.</li>
+            <li className="l">Exposure and knowledge in more than one tool.</li>
             <li className="l">
-              Expertise skills. Up to date with Advanced topic{" "}
+              Expertise skills. Up to date with Advanced topic.{" "}
             </li>
-            <li className="l">RPA QA Analyst to RPA Solution Architects </li>
+            <li className="l">RPA QA Analyst to RPA Solution Architects. </li>
           </ul>
         </div>
       </div>
