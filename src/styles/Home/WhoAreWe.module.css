@@ -72,7 +72,8 @@
 
 #what {
     background-color: var(--themeGreen);
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     padding: 4rem;
     gap: 1rem
 }
@@ -84,7 +85,6 @@
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.167);
     border-radius: 0.4rem;
-    max-width: 25%;
     text-align: center;
     justify-content: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -155,7 +155,7 @@
     }
 
     #what {
-        flex-direction: column;
+       grid-template-columns: 1fr;
         padding: 4rem 2rem;
         gap: 2rem;
     }

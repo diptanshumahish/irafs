@@ -92,6 +92,28 @@ export default function WhoAreWe() {
                     <div className={s.whatHeading}>Contract Hiring</div>
                     <div className={s.whatContent}>More suitable for most organizations. Here consider this service sorted for you</div>
                 </div>
+                <div className={s.whatCard} data-aos="fade-up">
+                    <Image src='/assets/four/cld.png' width={80} height={80} alt='permanent staffing @wg'></Image>
+                    <div className={s.whatHeading}>Cloud Engafement</div>
+                    <div className={s.whatContent}>
+                    To help your business handle growth, you can trust in a cloud service platform that provides database storage, security, content delivery and computing power.
+                    </div>
+                </div>
+                <div className={s.whatCard} data-aos="fade-up" data-aos-delay="100">
+                    <Image src='/assets/four/c.png' width={80} height={80} alt='Technical staff @wg'></Image>
+                    <div className={s.whatHeading}>IT Consulting</div>
+                    <div className={s.whatContent}>Depend on professional IT services to veer you in the right direction. We advise you on how to use and improve information technology considering your business objectives. </div>
+                </div>
+                <div className={s.whatCard} data-aos="fade-up" data-aos-delay="200">
+                    <Image src='/assets/four/data.png' width={80} height={80} alt='Tempoarary staffing @wg '></Image>
+                    <div className={s.whatHeading}>Data Science</div>
+                    <div className={s.whatContent}>Data is not always easy to interpret. Your business can profit substantially by attaining information and insights from your data with ease of organization and accessibility.</div>
+                </div>
+                <div className={s.whatCard} data-aos="fade-up" data-aos-delay="300">
+                    <Image src='/assets/four/biz.png' width={80} height={80} alt='contract hiring @wg'></Image>
+                    <div className={s.whatHeading}>Business Intelligence</div>
+                    <div className={s.whatContent}>Business intelligence involves leveraging several applications and methods with data collection, advanced analysis and query checks to create accurate reports and dashboards. </div>
+                </div>
 
             </div>
         </>

@@ -8,6 +8,7 @@ import Footer from '@/components/Footer'
 import Aos from 'aos'
 import { useEffect } from 'react'
 import "aos/dist/aos.css";
+import Robotics from '@/components/home/Robotics'
 
 export default function Home() {
   useEffect(() => {
@@ -48,7 +49,9 @@ export default function Home() {
       <main>
         <Header />
         <WhoAreWe />
+        <Robotics/>
         <MajorTech />
+      
         <Recruitment />
       </main>
       <Footer />
