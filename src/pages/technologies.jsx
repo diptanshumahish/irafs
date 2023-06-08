@@ -31,12 +31,12 @@ export default function Technologies() {
 
                         <div id={t.cont} data-aos="fade-up" data-aos-delay="200">
 
-                            The workforce is an asset for every organization. <span>IRA Future Solutions </span>
+                            The workforce is an asset for every organization. <span>IRA FS </span>
                             understands it and pay great heed to the clients staffing needs.
                             Our team works <span>efficiently</span> in providing talented and qualified workforce
                             for our clients, which fully meets the staffing criteria.
                             This also empowers to choose a <span>reliable work force</span> within
-                            a budget. At <span>IRA Future Solutions </span>
+                            a budget. At <span>IRA FS </span>
                             every candidate is tested on his abilities, strength, and weakness,
                             retaining and referring the best aspirant for the job, thus ensure
                             an optimistic and successful future for both the client and the candidate.

@@ -8,11 +8,11 @@ export default function Navbar() {
             <nav>
                 <div id="navLogo" >
                     <div>
-                        <Image src='/irafs.svg' height={60} width={50} alt="Ira future solutions logo" />
+                        <Image src='/irafs.svg' height={60} width={50} alt="Ira FS logo" />
                     </div>
                     <div id="navLogoText">
-                        <div id="Logo1">IRA</div>
-                        <div id="Logo2">Future Solutions.</div>
+                        <div id="Logo1">IRA FS </div>
+                        
                     </div>
                 </div>
                 <div id="navLinks">

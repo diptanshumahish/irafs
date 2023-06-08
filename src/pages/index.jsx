@@ -17,9 +17,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>IRA Future Solutions.</title>
-        <meta name="description" content="IRA Future Solutions | The best staffing and hiring solutions for you at the cheapest prices! " />
-        <meta name="keywords" content="IRA Future Solutions, IRAfs, IRAFS, staffing and hiring, developers" />
+        <title>IRA FS.</title>
+        <meta name="description" content="IRA FS | The best staffing and hiring solutions for you at the cheapest prices! " />
+        <meta name="keywords" content="IRA FS, IRAfs, IRAFS, staffing and hiring, developers" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta name='author' content='Diptanhu Mahish' />
@@ -31,16 +31,16 @@ export default function Home() {
         {/* facebook */}
         <meta property="og:url" content="https://irafs.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="IRA Future Solutions." />
-        <meta property="og:description" content="IRA Future Solutions | The best staffing and hiring solutions for you at the cheapest prices! " />
+        <meta property="og:title" content="IRA FS." />
+        <meta property="og:description" content="IRA FS | The best staffing and hiring solutions for you at the cheapest prices! " />
         <meta property="og:image" content="https://irafs.com/assets/bannerblack.png" />
 
         {/* twitter  */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="irafs.vercel.app" />
         <meta property="twitter:url" content="https://irafs.com/" />
-        <meta name="twitter:title" content="IRA Future Solutions." />
-        <meta name="twitter:description" content="IRA Future Solutions | The best staffing and hiring solutions for you at the cheapest prices! " />
+        <meta name="twitter:title" content="IRA FS." />
+        <meta name="twitter:description" content="IRA FS | The best staffing and hiring solutions for you at the cheapest prices! " />
         <meta name="twitter:image" content="https://irafs.com/assets/bannerblack.png" />
 
       </Head>

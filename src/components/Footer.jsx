@@ -7,12 +7,9 @@ export default function Footer() {
             <footer>
                 <div id={s.footerLeft}>
                     {/* logo here */}
-                    <Image src='/assets/logob.svg' height={80} width={60}  alt="Ira Future solutions logo"/>
+                    <Image src='/assets/logob.svg' height={80} width={60}  alt="Ira FS logo"/>
                     <div id={s.head}>
-                        IRA
-                    </div>
-                    <div id={s.subHead}>
-                        Future Solutions.
+                        IRA FS
                     </div>
                     <div id={s.country}>
                         India
@@ -20,7 +17,7 @@ export default function Footer() {
                 </div>
                 <div id={s.footerRight}>
                     <div id={s.top}>
-                        IRA Future Solutions &copy;
+                        IRA FS &copy;
                     </div>
                     <div id={s.bottom}>
                         <div className={s.footLink}>

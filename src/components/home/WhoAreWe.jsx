@@ -17,7 +17,7 @@ export default function WhoAreWe() {
                         </div>
                     </div>
                     <div id={s.WhoRight}>
-                        <span>IRA Future solutions</span> provides quality IT talent with outstanding <span>customer satisfaction</span> along with innovative resource planning and staffing solutions.
+                        <span>IRA FS</span> provides quality IT talent with outstanding <span>customer satisfaction</span> along with innovative resource planning and staffing solutions.
                         <br />
 
                         In this competitive era of digital,
