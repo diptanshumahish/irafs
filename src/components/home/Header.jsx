@@ -19,7 +19,9 @@ export default function Header() {
                     </Link>
                 </div>
                 <div id={s.HeaderRight} data-aos="fade-up" data-aos-delay="200">
-                    <Image id={s.images} alt="random" src='/assets/images/front.jpg' height={400} width={300} />
+                   
+                    {/* <video src="/ir.mp4" height={400} width={300} autoPlay loop muted></video> */}
+                    {/* <iframe src="https://embed.lottiefiles.com/animation/144574"></iframe> */}
                 </div>
             </div>
 
